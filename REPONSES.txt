@@ -27,3 +27,6 @@ Excerice3:
 2-Le hash du premier commit est: 8019816bbc8bb0cc740ccc284d78a43333244c25
 3-git k représente le fait que les deux dépots snt synchronisés en affichant dans Branches: la nouvelle branche qui a été créée (Branches: master, remotes/origin/master
 )
+
+///////////******************************************* question 5 exo 2 td 00 bis *************************************************//////////
+
