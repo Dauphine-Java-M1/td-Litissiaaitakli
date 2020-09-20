@@ -1,1 +1,29 @@
 AIT AKLI Litissia
+       
+/*********************************************************TD0*****************************************************************************************/
+
+Excercice1:
+
+4-La version de maven est : 3.6.3 ( commande mvn -v)
+5-groupId et artifactId servent à personnaliser le projet le groupId pour le groupe du projet et artifactId c'est l'identifiant du projet
+6-L'opération ne se déroule pas correctement, je passe directement à la question 9
+13-La valeur de maven.compiler.target est 1.7
+
+Exercice 2:
+1-Le fichier ne s'execute pas une erreur est levée ( no main manifest attribute)
+
+Excerice3:
+
+3- System.out.println() est affiché
+4-Deux méthodes sont suggérés : toString() et toStr()
+5-La méthode: public static void main (string[]args]) est affichée
+6-getToto() est affiché
+ -setToto(int) est affiché
+7-Une popu 'Open Ressource' est affiché et même chose pour toto
+
+/******************************************************TD0 bis**************************************************************************************/
+
+1- L'ancienne ligne de code est en rouge(-) initRandom(100,1000) et la nouvelle ligne est en vert (+) initRandom(100, 2000)
+2-Le hash du premier commit est: 8019816bbc8bb0cc740ccc284d78a43333244c25
+3-git k représente le fait que les deux dépots snt synchronisés en affichant dans Branches: la nouvelle branche qui a été créée (Branches: master, remotes/origin/master
+)
