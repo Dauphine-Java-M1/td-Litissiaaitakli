@@ -1,5 +1,6 @@
 package fr.dauphine.ja.aitaklilitissia.td00;
 
+import fr.dauphine.ja.aitaklilitissia.td00.PrimeCollection;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -7,7 +8,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
+public class PrimeCollectionTest 
     extends TestCase
 {
     /**
@@ -15,7 +16,7 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
+    public PrimeCollectionTest( String testName )
     {
         super( testName );
     }
@@ -25,7 +26,7 @@ public class AppTest
      */
     public static Test suite()
     {
-        return new TestSuite( AppTest.class );
+        return new TestSuite( PrimeCollectionTest.class );
     }
 
     /**
@@ -34,5 +35,20 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+    PrimeCollection p= new PrimeCollection();
+    public void test0isPrime() {
+    	System.out.println("0");
+    	System.out.println( p.isPrime(0));
+    }
+    
+    public void testTwoIsPrime() {
+    	System.out.println("2");
+    	System.out.println(p.isPrime(2));
+    }
+    
+    public void test9IsNotPrime() {
+    	System.out.println("9");
+    	System.out.println(p.isPrime(9));
     }
 }

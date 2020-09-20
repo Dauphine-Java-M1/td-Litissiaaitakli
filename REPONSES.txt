@@ -30,3 +30,10 @@ Excerice3:
 
 ///////////******************************************* question 5 exo 2 td 00 bis *************************************************//////////
 
+4-L'opération push s'est bien exéucter
+5-SI on modifie la même ligne y aura un conflit de fusion 
+6-y a une erreur qui est produite dans Junit
+7-La fonction test0IsPrime() renvoie True
+  -La fonction testTwoisPrime() renvoie True
+  -La fonction test9IsNotPrime renvoie false
+
